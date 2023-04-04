@@ -1,13 +1,13 @@
 <img src="https://www.univ-nantes.fr/medias/photo/logotype-nantes-u-noir-72dpi_1638965800927-png?ID_FICHE=1482184" alt="Nantes Université" width="200"/>
 <img src=../pictures/LOGO_PRINCIPAL_IUT_NANTES_CMJN.png alt="IUT Nantes" width="200"/>
 
-# Mini-projet de GPO2 d'année BUT1-Info 2023 (SAE 2.5): APPLICATION INTEELIGENTE DE SUIVI DE L'ASTHME CHEZ L'ADOLESCENT
+# Mini-projet de GPO2 d'année BUT1-Info 2023 (SAE 2.5): APPLICATION INTEELLIGENTE DE SUIVI DE L'ASTHME CHEZ L'ADOLESCENT
 
-L’asthme est une maladie chronique inflammatoire qui se caractérise par une réactivité excessive des bronches à certains facteurs déclenchant comme l’exercice physique, et qui provoque une difficulté à respirer. Cette maladie apparaît généralement pendant l’enfance. Elle possède une origine multifactorielle tels que des facteurs environnementaux (exposition au tabac, à des allergènes comme les acariens ou les moisissures, à la pollution de l’air,…), les émotions, l'activité physique, etc. 
+L’asthme est une maladie chronique inflammatoire qui se caractérise par une réactivité excessive des bronches à certains facteurs déclenchant comme l’exercice physique, et qui provoque une difficulté à respirer. Cette maladie apparaît généralement pendant l’enfance. Elle possède une origine multifactorielle tels que des facteurs environnementaux (exposition au tabac, à des allergènes comme les acariens ou les moisissures, à la pollution de l’air, etc.), les émotions, l'activité physique, etc. 
 L’asthme est sous-diagnostiqué et insuffisamment traité. Il représente une lourde charge pour les individus et les familles et limite souvent l’activité du malade tout au long de sa vie. Selon l'Organisation Mondiale de la Santé, cette affection touche un peu plus de 5 % des habitants de la planète, soit environ 300 millions de personnes (environ la population des États-Unis). L'asthme touche en France 3,5 millions de personnes, dont un tiers a moins de quinze ans (soit environ 1,2 millions de personnes). Et en moins de vingt ans, le nombre d'asthmatiques a augmenté de plus de 40 % chez les adolescents, soit environ 23 200 personnes asthmatiques de
 plus chaque année, ce qui représente pendant 20 ans près de 464 000 adolescents de plus.
 
-Le projet adopte une approche multi-factorielle de l'asthme en prenant en compte les facteurs environnementaux (pollution atmosphérique / domestique, CO2, humidité...), physiologiques (taux oxygène dans le sang...) et comportementaux (activité physique, prise de Ventoline...) Grace à ces mesures complètes réalisées au moyen de capteurs (IoT) et de questionnaires au sein d'une application mobile, et à l'aide d'algorithme prédictifs utilisant l'Intelligence Artificielle, le projet doit être en mesure d'offrir au patient un suivi adapté en lui offrant une prévention personnalisée et ciblée des crises, favorisant ainsi une meilleure observance de son traitement. L'application développée donnera aussi aux praticiens (généraliste, spécialiste, urgentiste) des indications précieuses pour un meilleur suivi et un meilleur diagnostique.
+Le projet adopte une approche multi-factorielle de l'asthme en prenant en compte les facteurs environnementaux (pollution atmosphérique / domestique, CO2, humidité,etc.) physiologiques (taux oxygène dans le sang, etc.) et comportementaux (activité physique, prise de Ventoline, etc.) Grace à ces mesures complètes réalisées au moyen de capteurs (IoT) et de questionnaires au sein d'une application mobile, et à l'aide d'algorithme prédictifs utilisant l'Intelligence Artificielle, le projet doit être en mesure d'offrir au patient un suivi adapté en lui offrant une prévention personnalisée et ciblée des crises, favorisant ainsi une meilleure observance de son traitement. L'application développée donnera aussi aux praticiens (généraliste, spécialiste, urgentiste) des indications précieuses pour un meilleur suivi et un meilleur diagnostique.
 
 Nous allons traiter la première partie du projet en mettant en oeuvre l'ensemble du contenu du module de GPO2 et en produisant un cahier des charges.
 
@@ -21,14 +21,14 @@ Ce projet se concrétisera sous la forme d'une application mobile qui devra :
 * Collecter des données
   * environnementales à l'aide de capteurs (dispositif à placer sur la bretelle d'un sac à dos par exemple) pour mesurer pollution, pollens...
   * physiologiques à l'aide de capteurs (montre connectée, patch connecté...) pour mesurer des constantes comme le rythme cardiaque, la respiration, le taux d'oxygène dans le sang, etc.
-  * comportementales à l'aide de capteurs sur des dispositifs (spiromètre connecté, ventoline connectée) pour mesurer la prise de traitement, à l'aide de capteurs pour mesurer l'activité physique (smartphone, bracelet connecté), à l'aide de questionnaires sur l'application pour collecter des données de vie réelle (ressenti après prise de traitement ou après crise exacerbation...)
+  * comportementales à l'aide de capteurs sur des dispositifs (spiromètre connecté, bronchodilatateur connecté) pour mesurer la prise de traitement, à l'aide de capteurs pour mesurer l'activité physique (smartphone, bracelet connecté), à l'aide de questionnaires sur l'application pour collecter des données de vie réelle (ressenti après prise de traitement ou après crise exacerbation...)
 * A partir de ces données 
   * Fournir un tableau de bord à destination des professionnels de santé sur l'état de santé de l'adolescent par rapport à son asthme (prise de traitement, crises, etc.)
   * A partir d'algorithmes d'apprentissages, établir un profil de survenue de crise d'asthme et prévenir en amont l'adolescent
   * Alerter l'adolescent en cas de rupture de parcours de soin (non suivi régulier du traitement par exemple)
   * Fournir des informations d'éducation thérapeuthique
   * Envoyer les données sur l'Espace Numérique de Santé
-  * Grantir le respect des règles édictées par le RGPD sur les données de santé
+  * Garantir le respect des règles édictées par le RGPD sur les données de santé
 
 Cette application est un cas d'IA embarquée sur une application mobile. Il ne devra pas y avoir de serveurs collectant la moindre donnée, hormis l'Espace Numérique de Santé du patient concerné (https://www.monespacesante.fr/). Tout devra se faire en local en assurant sécurité et confidentialité.
 
@@ -46,7 +46,7 @@ Vous aurez à collecter plusieurs données importantes au moyen de capteurs. En 
 * Taux de CO2 atmosphérique (concentration en CO2)
 * Taux d’O3 atmosphérique (concentration en ozone)
 
-** Quelques proejts connexes **
+** Quelques projets connexes **
 
 *Ventoline connectée*
 * https://detours.canal.fr/ventoline-connectee-va-epoustoufler-asthmatiques/
@@ -65,7 +65,7 @@ Vous aurez à collecter plusieurs données importantes au moyen de capteurs. En 
 * https://woodruffmedical.edu/the-best-mobile-apps-to-recommend-to-your-asthma-patients/
 * https://pubmed.ncbi.nlm.nih.gov/?term=asthma+%22mobile+application%22
 
-*Qualité de l'air :*
+*Qualité de l'air*
 * https://www.dyson.fr/newsroom/guides/qualite-de-l-air/pollution-de-l-air-a-paris-avec-laury-thilleman
 * https://www.pocket-lint.com/fr-fr/gadgets/actualites/dyson/147481-sac-a-dos-dyson-surveille-la-qualite-de-l-air-pour-signaler-les-polluants-que-respirent-les-enfants-de-londres/
 
@@ -88,7 +88,7 @@ Vous aurez à collecter plusieurs données importantes au moyen de capteurs. En 
 
 Le travail à réaliser ici correspond au **WP0*, le premier workpackage du projet, celui qui correspond à la rédaction du cahier des charges et plus tard à la gestion du projet.
 
-Vous devrez mettre en oeuvre l'ensemble des techniques vues en GPO2 en produisant un cahier des charges est un travail réalisable en **72h/h** (à répartir entre 5 à 6 étudiants et dont les 2/3 seront faites pendant des créneaux avec un enseignant).
+Vous devrez mettre en oeuvre l'ensemble des techniques vues en GPO2 en produisant un cahier des charges est un travail réalisable en **60 heures.etudiants** (à répartir entre 5 étudiants et dont les 2/3 seront faites pendant des créneaux avec un enseignant).
 La date de rendu est le **jeudi 2 juin 2023, à 19h**.
 
 Votre travail sera à rendre dans gitlab, l'enseignant récupérera votre travail à cette date. Même si vous faites quelque chose ensuite, il peut choisir la version qu'il évalue. Si vous avez vraiment besoin qu'il considère une version en retard, il faudra lui demander et il y aura des pénalités (comme dans tout projet industriel, à savoir 1 point par jour de retard).
@@ -111,5 +111,5 @@ Vous pouvez l'utiliser pour résumer des contenus ou pour avoir des idées que v
 
 Vous devrez dans tous les cas maitriser ce que vous écrivez ; l'exercice oral et les questions que nous vous poserons auront pour objet de vérifier cette maîtrise.
 
-Votre état de l'art (étude de l'existant, sur l'asthme etc.) devra **obligatoirement** être sourcé, c'est-à-dire que nous devrons avoir les références que vous aurez trouvé.
+Votre état de l'art (étude de l'existant, sur l'asthme etc.) devra **obligatoirement** être sourcé, c'est-à-dire que nous devrons avoir les références que vous aurez trouvées.
 
