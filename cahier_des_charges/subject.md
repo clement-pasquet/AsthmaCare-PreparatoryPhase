@@ -1,15 +1,15 @@
 <img src="https://www.univ-nantes.fr/medias/photo/logotype-nantes-u-noir-72dpi_1638965800927-png?ID_FICHE=1482184" alt="Nantes Université" width="200"/>
 <img src=../pictures/LOGO_PRINCIPAL_IUT_NANTES_CMJN.png alt="IUT Nantes" width="200"/>
 
-# Mini-projet de GPO2 d'année BUT1-Info 2023 (SAE 2.5): APPLICATION INTEELLIGENTE DE SUIVI DE L'ASTHME CHEZ L'ADOLESCENT
+# Mini-projet de GPO2 d'année BUT1-Info 2023 (SAE 2.5): APPLICATION INTELLIGENTE DE SUIVI DE L'ASTHME CHEZ L'ADOLESCENT
 
 L’asthme est une maladie chronique inflammatoire qui se caractérise par une réactivité excessive des bronches à certains facteurs déclenchant comme l’exercice physique, et qui provoque une difficulté à respirer. Cette maladie apparaît généralement pendant l’enfance. Elle possède une origine multifactorielle tels que des facteurs environnementaux (exposition au tabac, à des allergènes comme les acariens ou les moisissures, à la pollution de l’air, etc.), les émotions, l'activité physique, etc. 
 L’asthme est sous-diagnostiqué et insuffisamment traité. Il représente une lourde charge pour les individus et les familles et limite souvent l’activité du malade tout au long de sa vie. Selon l'Organisation Mondiale de la Santé, cette affection touche un peu plus de 5 % des habitants de la planète, soit environ 300 millions de personnes (environ la population des États-Unis). L'asthme touche en France 3,5 millions de personnes, dont un tiers a moins de quinze ans (soit environ 1,2 millions de personnes). Et en moins de vingt ans, le nombre d'asthmatiques a augmenté de plus de 40 % chez les adolescents, soit environ 23 200 personnes asthmatiques de
 plus chaque année, ce qui représente pendant 20 ans près de 464 000 adolescents de plus.
 
-Le projet adopte une approche multi-factorielle de l'asthme en prenant en compte les facteurs environnementaux (pollution atmosphérique / domestique, CO2, humidité,etc.) physiologiques (taux oxygène dans le sang, etc.) et comportementaux (activité physique, prise de Ventoline, etc.) Grace à ces mesures complètes réalisées au moyen de capteurs (IoT) et de questionnaires au sein d'une application mobile, et à l'aide d'algorithme prédictifs utilisant l'Intelligence Artificielle, le projet doit être en mesure d'offrir au patient un suivi adapté en lui offrant une prévention personnalisée et ciblée des crises, favorisant ainsi une meilleure observance de son traitement. L'application développée donnera aussi aux praticiens (généraliste, spécialiste, urgentiste) des indications précieuses pour un meilleur suivi et un meilleur diagnostique.
+On se place dans le contexte d'un projet de Recherche & Développement. L'objectif étant d'avoir une approche multi-factorielle de l'asthme en prenant en compte les facteurs environnementaux (pollution atmosphérique / domestique, CO2, humidité,etc.), physiologiques (taux oxygène dans le sang, etc.) et comportementaux (activité physique, prise de Ventoline, etc.). Cela sera fait par des mesures complètes réalisées au moyen de capteurs (IoT) et de questionnaires au sein d'une application mobile, et à l'aide d'algorithme prédictifs utilisant l'Intelligence Artificielle. L'application développée doit être en mesure d'offrir au patient un suivi adapté grâce à une prévention personnalisée et ciblée des crises, favorisant ainsi une meilleure observance de son traitement. L'application développée donnera aussi aux praticiens (généraliste, spécialiste, urgentiste) des indications précieuses pour un meilleur suivi et un meilleur diagnostique.
 
-Nous allons traiter la première partie du projet en mettant en oeuvre l'ensemble du contenu du module de GPO2 et en produisant un cahier des charges.
+Dans la SAE 2-05, nous allons traiter la première partie du projet en mettant en oeuvre l'ensemble du contenu de la ressource R210-GPO2 et en produisant un cahier des charges.
 
 Imaginons que votre groupe (**au plus 5 personnes**) est la première équipe de l'entreprise qui va faire toute l'étude et qui confiera ensuite le cahier des charges à une équipe chargée de faire un prototype (il s'agit d'un projet classique pour des étudiants de 2ème année l'an prochain).
 
@@ -77,7 +77,7 @@ Vous aurez à collecter plusieurs données importantes au moyen de capteurs. En 
 * https://www.cnil.fr/fr/traitement-de-donnees-de-sante-comment-informer-les-personnes-concernees
 
 *Divers*
-* Agence du Nuémrique en Santé : https://esante.gouv.fr/
+* Agence du Numérique en Santé : https://esante.gouv.fr/
 * Site sur l'asthme et les allergies : https://asthme-allergies.org/
 * Association Santé respiratoire : https://sante-respiratoire.com/les-maladies-respiratoires/asthme/
 * Association des asthmatiques sévères : https://asthmatiques-severes.fr/
@@ -88,8 +88,8 @@ Vous aurez à collecter plusieurs données importantes au moyen de capteurs. En 
 
 Le travail à réaliser ici correspond au **WP0*, le premier workpackage du projet, celui qui correspond à la rédaction du cahier des charges et plus tard à la gestion du projet.
 
-Vous devrez mettre en oeuvre l'ensemble des techniques vues en GPO2 en produisant un cahier des charges est un travail réalisable en **60 heures.etudiants** (à répartir entre 5 étudiants et dont les 2/3 seront faites pendant des créneaux avec un enseignant).
-La date de rendu est le **jeudi 2 juin 2023, à 19h**.
+Vous devrez mettre en oeuvre l'ensemble des techniques vues en GPO2 en produisant un cahier des charges. C'est un travail réalisable en **60 heures.etudiants** (à répartir entre 5 étudiants et dont les 2/3 seront faites pendant des créneaux avec un enseignant).
+La date de rendu est le **vendredi 2 juin 2023, à 19h**.
 
 Votre travail sera à rendre dans gitlab, l'enseignant récupérera votre travail à cette date. Même si vous faites quelque chose ensuite, il peut choisir la version qu'il évalue. Si vous avez vraiment besoin qu'il considère une version en retard, il faudra lui demander et il y aura des pénalités (comme dans tout projet industriel, à savoir 1 point par jour de retard).
 
@@ -97,9 +97,9 @@ Nous préférons mettre une note par groupe, mais nous aurons accès à votre tr
 
 Vous allez utiliser les outils vues en TD (youtrack et les outils de uncloud.univ-nantes.fr : traitement de texte, tableur, diagramme, mindmap/WBS) pour faire votre étude, mais le rendu se fera dans un fichier du même type que celui que vous êtes en train de lire : au format markdown (https://support.zendesk.com/hc/fr/articles/4408846544922-Formatage-de-texte-avec-Markdown#topic_xqx_mvc_43__row_ppv_wln_1n). Il s'agit d'un langage basique pour mettre en forme du texte grâce à des caractères spéciaux (cela à l'avantage d'être du texte brut facilement versionnable avec git).
 
-Dans les "files" du "repository", vous trouverez un dossier cahier_des_charges. J'y ai déposé un fichier préformé de cahier des charges, nommé *cahier_des_charges.md*. Ce sera à vous de le modifier et de le versionner dans votre propre projet gitlab une fois que vous aurez fait un fork de ce projet (pas de panique, on le fera ensemble en TD de GPO2).
+Dans les "files" du "repository", vous trouverez un dossier cahier_des_charges. S'y trouve un fichier préformé de cahier des charges, nommé *cahier_des_charges.md*. Ce sera à vous de le modifier et de le versionner dans votre propre projet gitlab une fois que vous aurez fait un fork de ce projet (comme déjà fait en TD de GPO2).
 
-**A la fin des séances SAE** vous devrez présenter votre travail sous la forme d'un pitch dont les modalités vous seront données au début.
+**A la fin des séances SAE** votre enseignant pourra vous demander de commenter votre travail et répondre à des questions (des modalités vous seront données en séance).
 
 ## Contraintes ##
 
@@ -113,3 +113,4 @@ Vous devrez dans tous les cas maitriser ce que vous écrivez ; l'exercice oral e
 
 Votre état de l'art (étude de l'existant, sur l'asthme etc.) devra **obligatoirement** être sourcé, c'est-à-dire que nous devrons avoir les références que vous aurez trouvées.
 
+La note sera individuelle.
