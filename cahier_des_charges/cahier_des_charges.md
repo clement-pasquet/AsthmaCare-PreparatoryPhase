@@ -443,4 +443,17 @@ Message non rassurant : Pour empêcher l’utilisation de messages non rassurant
 - L’empêcher
 - Alerter qu'elle est en voie de se produire
 - Réagir quand elle s’est produite\*
+## <a name="_1pwe7hwn7fz3"></a>**5 Annexe**
+*Le planning ne fait pas partie de la norme car sa décomposition n’importe pas au client à cette phase du projet. Il n’est alors intéressé que par les jalons qui ponctuent la réalisation des différentes fonctionnalités. Nous placerons donc le **diagramme de Gantt** ici.*
 
+![](./Aspose.Words.d9d7b8ea-1bd2-4702-8cc9-28d17c199cc9.010.png)
+
+Le diagrammes ci-dessus présente les différentes fonctions principales au cours du temps en concordance avec la question 3.1.2.
+
+Ici, mesurer les paramètres de santé prend le plus de temps car cela inclut la conception complète des patchs.
+
+Une fois les différents composants choisis, une autre équipe peut s’occuper en même temps de l’envoi d’informations des patchs au téléphone.
+
+
+
+19
