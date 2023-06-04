@@ -62,7 +62,7 @@ Nous nous basons sur différentes études, comme celle la de l’University of W
 
 Et finalement, nous pouvons nous baser sur cette étude ([Mesure sans contact de l'activité cardiaque par analyse du flux vidéo issu d'une caméra numérique](https://theses.hal.science/tel-01751131/document)) qui donne des indices sur ce que pourrait être le futur des mesures - spécialement de l’activité cardiaque - en démontrant que mesurer une activité cardiaque grâce à une caméra thermique est possible.
 
-qualité de l’air
+Il existe aussi différents sites comme Geod’Air ( [Geod'air](https://www.geodair.fr) ) qui permettent d’avoir différentes informations sur l’air en France, ces données sont utiles pour tester les capteurs de qualité de l’air et peuvent servir pour la carte environnementale qui sera dans l’application.
 
 #### <a name="_5q1pf94pgrsb"></a>**1.2.4 Suites prévues**
 Il y aura la possibilité de mettre en place dans les communes de petits appareils d’observation de l'environnement. Ils auront pour objectif de prendre des mesures environnementales comme des relevés d'air, de pollen et d’indice de pollution. Ils devront évaluer les changements, les sauvegarder, et faire des corrélations pour mettre en place une carte qui pourra potentiellement prédire les futurs changements d’environnement et donc prédire les périodes de risque potentiel pour les asmathiques selon les zones.
@@ -182,9 +182,6 @@ Téléphone :
 ![](./Aspose.Words.f4dad7c5-82ca-448c-8ff8-8a08a543f2aa.002.png)
 ![](./Aspose.Words.f4dad7c5-82ca-448c-8ff8-8a08a543f2aa.003.png)
 
-différents personnel de santé ( allergologue, urgentiste , généraliste, pneumologue )
-
-parents/responsables légaux utilisateurs etc…
 ### <a name="_yr4pyd6oo52b"></a>**2.1 Fonctions de service et de contrainte**
 #### <a name="_vr8a2ou78h2i"></a>**2.1.1 Fonctions de service principales**
 - Mesurer les différents paramètres de santé de l’utilisateur
@@ -194,7 +191,6 @@ parents/responsables légaux utilisateurs etc…
 - Prévenir l’utilisateur d’une future crise
 - Eduquer l’utilisateur en vulgarisant l’asthme et les sujets connexes (Informations faites vérifiées par le comité médical)
 
-*(qui) sont la raison d’être du produit)*
 ##### <a name="_x7erz4i40f8f"></a>**2.1.1.1 Description et détail**
 Mesurer les différents paramètres de santé de l’utilisateur : il faut récupérer  différentes informations physiques provenant du corps du porteur du patch (taux d’oxygène dans le sang, taux de glucose…). L’asthme est provoqué par plusieurs facteurs agissant sur le corps. Selon la personne, l’asthme peut se déclencher via certains paramètres comme la quantité d'oxygène dans le sang, le rythme cardiaque qui détermine la vitesse d'acheminement de l'oxygène, le taux de glucose ou encore la température du corps.  Ainsi il est important de récolter ces données.
 
@@ -229,11 +225,12 @@ Eduquer l’utilisateur : Il faut informer l’utilisateur de différentes infor
 
 *(qui améliorent, facilitent ou complètent le service rendu)*
 ##### <a name="_q12jknotbhmi"></a>**2.1.2.1 Description et détail**
+
 L'application prévient quand le patch est bientôt déchargé : L’application doit prévenir au moins 1 semaine à l’avance pour que le patch puisse être délivré à temps.
 
 Niveau souhaité : l’application doit prévenir au mieux 2 semaines à l’avance pour pouvoir changer au plus vite son patch. L’état de chargement doit être communiqué en pourcentage et non en temps afin qu’il soit plus parlant pour l’utilisateur.
 
-L’utilisateur a la possibilité de renseigner la carte avec les mesures d'environnement avec des appareils de mesure.
+L’utilisateur a la possibilité de renseigner la carte avec les mesures d'environnement avec des appareils de mesure : comme l’application contient une carte, on pourra agrémenter cette carte avec nos propres informations.
 
 ##### <a name="_kslh1u3niuew"></a>**2.1.2.2 Critères d’appréciation et les niveaux qui les caractérisent**
 
