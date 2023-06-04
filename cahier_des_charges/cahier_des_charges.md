@@ -249,3 +249,138 @@ L’utilisateur a la possibilité de renseigner la carte avec les mesures d'envi
 *(limitations à la liberté du concepteur-réalisateur)*
 
 - Les différentes liaisons (entre les patchs et le téléphone, et entre le téléphone et l’Espace Numérique de Santé) doivent être sécurisées.
+
+
+## <a name="_uggyic66siij"></a>**3. Cadre de réponse**
+***Diagramme de classes métiers** : à base de classes métiers (des concepts indépendants de la programmation, avec des attributs mais sans méthodes, ainsi que des relations entre les concepts sur les agissements des classes métiers les unes sur les autres)*
+
+*Synthèse des jalons : **tables synthétiques des jalons** du projet.*
+### <a name="_buz9olx8q9se"></a>**3.1 *Pour chaque fonction : fonction 1 Alerter***
+#### <a name="_qysfeb7ugi5j"></a>**3.1.1 Solution proposée**
+*Tâches à réaliser pour la solution -> **WBS***
+
+![](Aspose.Words.d9d7b8ea-1bd2-4702-8cc9-28d17c199cc9.004.png)
+
+
+*Description de **scénarii** (potentiellement avec un Diagramme de séquence)*
+
+*Diagramme de séquence décrivant le scénario utilisateur en pleine crise d’asthme*
+
+![](Aspose.Words.d9d7b8ea-1bd2-4702-8cc9-28d17c199cc9.005.png)
+
+***Jalon** : date à laquelle la fonction doit être livrée*
+
+*Si le projet commence le 1er septembre 2024 :*
+
+*Par estimation, la fonction Alerter finira 1 mois après soit le 1er octobre 2024.*
+
+*Par estimation, la fonction Prévenir finira 2 mois après soit le 1er novembre 2024.*
+
+*Par estimation, la fonction Renseigné finira 3 mois après soit le 1er décembre 2024.*
+
+#### <a name="_emn36z3tq2ma"></a>**3.1.2 Niveau atteint pour chaque critère d’appréciation de cette fonction et modalités de contrôle**
+
+- Oxymétrie : permet de détecter sur des situations de test à 1% près
+- Rythme cardiaque : vérifications sur des modèles de test que l'appareil le détecte correctement
+- Température corporelle : vérifications sur des modèle de test que la température mesurée est bien celle du corps et non celle de l'environnement
+- Température ambiante : vérifications précises de la température sur des échelles “normales”
+- Taux d’humidité : vérification que le capteur détecte bien l'humidité sans être trompé par la température.
+- Enregistrement info : vérification que les données ne s'accumulent pas sur le téléphone de test.
+- Alerte : vérification que la notification arrive rapidement et qu'elle soit bien discernable.
+- Envoie de données : vérification que les données ne soient pas identifiables facilement sur internet.
+
+
+#### <a name="_3tzmceb2ueck"></a>**3.1.3 Part du prix attribué à chaque fonction**
+
+
+|Fonctions|Prix|
+| :- | :- |
+|- Mesurer les différents paramètres de santé de l’utilisateur|<p>Prix pour la conception et la miniaturisation des patchs et de leur fonctionnement.</p><p>Environ 10 personnes sur 3 mois (~ 90 000 €)</p>|
+|- Envoyer les données de santé de l’utilisateur au téléphone|Simple lien entre les patchs et le téléphone. On ajoute à cela l’entretien constant de l’application entière pour toutes les fonctions. Environ 2 personnes sur 2 semaines (~ 3 000 €) plus une personne sur 1 an (~ 36 000 €, mais prix à partager avec les différentes fonctions concernant l’application).|
+|- Partager les données de santé du téléphone de l’utilisateur à l’Espace Numérique de Santé|<p>Prix de la création de l’application et de son lien sécurisé avec l’espace numérique.</p><p>4 personnes sur 2 mois. ( ~ 24 000 € )</p>|
+|<p>- Alerter l’utilisateur pendant la crise (rassurer l’utilisateur)</p><p></p>|<p>Prévient le patient d’une crise imminente.</p><p>2 personnes sur 1 mois. ( ~ 6 000 € )</p>|
+|<p>- Prévenir l’utilisateur d’une future crise</p><p></p>|<p>Prévient le patient d’une crise future mais non imminente.</p><p>2 personnes sur 2 mois( ~ 12 000 € )</p>|
+|- Eduquer l’utilisateur en vulgarisant l’asthme et les sujets connexes (Informations faites vérifiées par le comité médical)|Implémentation de cette fonction dans l’application et création en continu de conseils et d’informations validées par un comité médical. 2 personnes sur 2 semaines plus un comité médical de plusieurs personnes équivalent d’un temps plein pendant 3 mois. ~ 12 000 €|
+###
+### <a name="_u5t6p0r6tuv5"></a><a name="_a1s1icfd80ex"></a>**3.2 *Pour chaque fonction : fonction 2 Prévenir***
+#### <a name="_hnwb0fc5eya8"></a>**3.2.1 Solution proposée**
+*Tâches à réaliser pour la solution -> **WBS***
+
+![](Aspose.Words.d9d7b8ea-1bd2-4702-8cc9-28d17c199cc9.006.png)
+
+*Description de **scénarios** (potentiellement avec un Diagramme de séquence)*
+
+*Diagramme de séquence décrivant le scénario prévention potentielle crise d’asthme*
+
+![](Aspose.Words.d9d7b8ea-1bd2-4702-8cc9-28d17c199cc9.007.png)
+
+### <a name="_j0plfcr88x53"></a>**3.3 *Pour chaque fonction : fonction 3 Renseigner***
+#### <a name="_9518pg93kl1z"></a>**3.3.1 Solution proposée**
+*Tâches à réaliser pour la solution -> **WBS***
+
+![](Aspose.Words.d9d7b8ea-1bd2-4702-8cc9-28d17c199cc9.008.png)
+
+*Description de **scénarios** (potentiellement avec un Diagramme de séquence)*
+
+*Diagramme de séquence décrivant le scénario utilisateur qui se renseigne sur l’application*
+### ![](Aspose.Words.d9d7b8ea-1bd2-4702-8cc9-28d17c199cc9.009.png)
+####
+### <a name="_eo8zzc34zn0p"></a><a name="_ofmez0mjn5no"></a><a name="_7shmtdm77mbg"></a>**3.4 Pour l’ensemble du produit**
+#### <a name="_78gt297sdp7b"></a>**3.4.1 Prix de la réalisation de la version de base**
+*Ici, il faut imaginer en faisant une petite étude de marchée (cf des sites marchands spécialisés)*
+
+Pour ce qui est du patch, il existe des équivalents de patchs connectés vendus pour le prix de 199 $ comme écrit ici ( [VitalConnect HealthPatch BioSensor: The "really-connected self" | Engadget](https://www.engadget.com/2014-06-13-vitalconnect-healthpatch-biosensor-the-really-connected-self.html) ), cela nous permet d’estimer le prix des patchs pour être rentable.
+
+Pour l’application nous allons faire passer par un système d’abonnement,  
+#### <a name="_47ovvnswuo0r"></a>**3.4.2 Options et variantes proposées non retenues au cahier des charges**
+#### <a name="_41e2vydu3d0v"></a>**3.4.3 Mesures prises pour respecter les contraintes et leurs conséquences économiques**
+Pour pouvoir remplir les *contraintes de stockage* dans les téléphones, il est important de limiter la quantité de données stockées en utilisant une intelligence artificielle qui se chargera de trier et de nettoyer les informations de santé.
+
+De même, le fait d’utiliser des capteurs dits **Médicaux** induit une plus grande qualité de services et le respect de différentes réglementations : cela aura donc un impact direct sur le prix des différents capteurs.
+#### <a name="_upnpkti4csfk"></a>**3.4.4 Outils d’installation, de maintenance … à prévoir**
+Pour ce qui est de l’installation, les patchs s'installent en se fixant sur la peau avec de la colle, donc tout pharmacien ou médecin généraliste devrait pouvoir l’installer.
+
+Pour la maintenance, cela sera notre entreprise qui s’occupera de la maintenance et du renvoi de patch quand les patchs n’auront plus de batterie.
+#### <a name="_wsvmguao4vk7"></a>**3.4.5 Décomposition en modules, sous-ensembles**
+
+Si nous partons des fonctions principales définies dans le WBS :
+
+- FP1 : Alerter
+  - Mesurer
+    - Planification
+    - Sélection des capteurs
+    - Acquisition des capteurs
+    - Tests
+  - Calculer
+    - Collecte des données mesurées
+    - Analyse des données
+    - Interprétation des résultats
+    - Stockage et gestion des données
+    - Sécurisation des données
+  - Informer
+    - Développement de l’application
+    - Documentation
+    - Intégration avec les capteurs de santé
+    - Tests et validation
+- FP2 : Prévenir
+  - Mesurer
+    - Détermination des paramètres de mesure
+    - Acquisition des capteurs
+    - Collecte et stockage des données
+    - Tests
+  - Examiner
+    - Analyse des risques
+    - Planification de la prévention
+    - Mise en place des mesures de prévention
+    - Tests et surveillance
+- FP3 : Renseigner
+  - Traiter
+    - Traitement des données
+    - Stockage des données
+  - Afficher
+    - Identification des informations à communiquer
+    - Mise en place du contenu
+#### <a name="_twk3xrcfew9v"></a>**3.4.7 Perspectives d’évolution technologique**
+Il y a une opportunité de relever des données sur des images et vidéos prises par l’utilisateur (BPM, pollen, taux d’oxygène dans le sang…). L’avantage de cette amélioration technologique est que le dispositif sera moins invasif.
+
+
