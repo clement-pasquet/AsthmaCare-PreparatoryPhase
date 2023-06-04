@@ -57,6 +57,8 @@ De même, une majorité des asmathiques n’est pas soumise à de potentielles r
 
 “*La pratique sportive régulière et modérée est bénéfique pour le système cardiovasculaire.*”, ainsi, notre application contiendra des informations environnementales permettant à l’usager de s’adonner à des activités physiques.
 
+Il existe aussi différents sites comme Getambee ( [Getambee](https://www.getambee.com/)) qui permettent d’avoir différentes informations sur l’air dans le monde mais aussi en France, ces données sont utiles pour tester les capteurs de qualité de l’air et peuvent servir pour la carte environnementale qui sera dans l’application.
+
 #### <a name="_azsokf29yk9z"></a>**1.2.3 Études menées sur des sujets voisins**
 Nous nous basons sur différentes études, comme celle la de l’University of Western Australia ([What is pollen?](https://www.uwa.edu.au/study/-/media/Faculties/Science/Docs/What-is-pollen.pdf)) expliquant le principe du pollen, ou celle de la Société Française de Médecine d’Urgence ([Le cœur de l'athlète](https://www.sfmu.org/upload/70_formation/02_eformation/02_congres/Urgences/urgences2013/donnees/pdf/056_Carre.pdf)) détaillant les différents mécanismes du cœur, et ce que cela signifie.
 
