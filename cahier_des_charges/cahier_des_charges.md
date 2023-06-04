@@ -2,7 +2,7 @@ SAE
 
 *Ce document est une structure de base, classique pour rédiger un cahier des charges. Elle est un peu différente de celle vue en TD. Elle n’est pas tout à fait standard non plus en couvrant davantage d’éléments qu’un cahier des charges normal (en particulier le Gantt est fait plus tard normalement, à part ses jalons) Tout ce qui est en italique doit être remplacé. Chaque section doit contenir au moins un paragraphe. Certaines choses sont à imaginer, en se documentant un minimum pour être réaliste.*
 
-![](Aspose.Words.f4dad7c5-82ca-448c-8ff8-8a08a543f2aa.001.png)
+![Logo IUT](Aspose.Words.f4dad7c5-82ca-448c-8ff8-8a08a543f2aa.001.png)
 # <a name="_f89v6d218qtn"></a>**Cahier des charges fonctionnel - *CAS\_D\_ETUDE***
 ## <a name="_g0p5anin76na"></a>**Entête**
 - Groupe de TD : 1
@@ -168,3 +168,87 @@ Téléphone :
 
 - Bluetooth compatible : Le téléphone **doit** disposer du bluetooth.
 - Application installée & patch connecté : pour des raisons pratiques, le téléphone doit avoir l’application d’installée et le patch connecté.
+
+## <a name="_4yuplcrsvr5k"></a>**2. Expression fonctionnelle du besoin**
+*Le **+** à priori chaque cas d’utilisation correspond à une fonction. Le diagramme de cas d’utilisations inclut la description détaillée de chaques cas d’utilisations (cf. cours de CO-C).*
+
+*Chaques fonctions doivent être classées selon différents critères :*
+
+- *coefficient de pondération (de 1 à 5) : selon la valeur, l’importance de la fonction*
+- *critère d’appréciation : comment sera apprécié le succès de la réalisation d’une fonction (« doit rendre le résultat correct en moins de x secondes »)*
+- *niveau d’un critère d’appréciation (« x de 1 à 3 secondes acceptables »)*
+- *niveau de flexibilité (« 90% dans l’intervalle, 10% à 1 seconde au-delà »)* *On peut regrouper les fonctions dans le **tableau fonctionnel** selon ces critères puis détailler chacune des fonctions dans les sous-sections suivantes.*
+
+![](./Aspose.Words.f4dad7c5-82ca-448c-8ff8-8a08a543f2aa.002.png)
+![](./Aspose.Words.f4dad7c5-82ca-448c-8ff8-8a08a543f2aa.003.png)
+
+différents personnel de santé ( allergologue, urgentiste , généraliste, pneumologue )
+
+parents/responsables légaux utilisateurs etc…
+### <a name="_yr4pyd6oo52b"></a>**2.1 Fonctions de service et de contrainte**
+#### <a name="_vr8a2ou78h2i"></a>**2.1.1 Fonctions de service principales**
+- Mesurer les différents paramètres de santé de l’utilisateur
+- Envoyer les données de santé de l’utilisateur au téléphone
+- Partager les données de santé du téléphone de l’utilisateur à l’Espace Numérique de Santé
+- Alerter l’utilisateur pendant la crise (rassurer l’utilisateur)
+- Prévenir l’utilisateur d’une future crise
+- Eduquer l’utilisateur en vulgarisant l’asthme et les sujets connexes (Informations faites vérifiées par le comité médical)
+
+*(qui) sont la raison d’être du produit)*
+##### <a name="_x7erz4i40f8f"></a>**2.1.1.1 Description et détail**
+Mesurer les différents paramètres de santé de l’utilisateur : il faut récupérer  différentes informations physiques provenant du corps du porteur du patch (taux d’oxygène dans le sang, taux de glucose…). L’asthme est provoqué par plusieurs facteurs agissant sur le corps. Selon la personne, l’asthme peut se déclencher via certains paramètres comme la quantité d'oxygène dans le sang, le rythme cardiaque qui détermine la vitesse d'acheminement de l'oxygène, le taux de glucose ou encore la température du corps.  Ainsi il est important de récolter ces données.
+
+Envoyer les données de santé de l’utilisateur au téléphone : Les patchs récoltant les informations, il faut les envoyer au téléphone relié en bluetooth.
+
+Partager les données de santé du téléphone de l’utilisateur à l’Espace Numérique de Santé : Le téléphone envoie les informations récupérées à l’Espace Numérique de Santé du patient.
+
+Alerter l’utilisateur en cas de crise : Si le patch détecte que l’utilisateur est en crise ou va être en crise très prochainement, l’application envoie différents signaux (messages, notifications, alerte(s)…)
+
+Prévenir l’utilisateur : Si le patch permet de remarquer que le patient risque d’être en crise prochainement mais pas de façon imminente, l’application préviendra l’utilisateur, mais avec des signaux moins forts, de manière à le conseiller et le rassurer (pas ou moins d’alarmes…)
+
+Eduquer l’utilisateur : Il faut informer l’utilisateur de différentes informations sur l’environnement (taux de pollen présents et futures, zones à risques…) mais aussi de différentes informations pédagogiques (conseils pour ne pas paniquer, recommandations de précautions, fonctionnement de l’asthme…) plus précis.
+##### <a name="_gta0usuf2qd4"></a>**2.1.1.2 Critères d’appréciation et les niveaux qui les caractérisent**
+*(Niveaux dont l’obtention est imposée)*
+
+*(Niveaux souhaités mais révisables)*
+
+
+
+|Nom|Coef. de Pondération|Critères d’Appréciation|Niv. des crit. d’Appréciation|Niveaux de Flexibilité|
+| :- | :- | :- | :- | :- |
+|Mesurer les différents paramètres de santé de l’utilisateur|5|Le patch dispose des informations de santé au moins toutes les 5 minutes.|Info. de santés mesurées toutes les 1 à 2 minutes préférables.|Au maximum une quinzaine de secondes.|
+|Envoyer les données de santé de l’utilisateur au téléphone|5|` `Les informations sont envoyées au moins toutes les 5 minutes.|Info. de santés envoyées toutes les 1 à 2 minutes préférables.|Au maximum une quinzaine de secondes.|
+|Partager les données de santé du téléphone de l’utilisateur à l’Espace Numérique de Santé|4|Les données de santé peuvent être envoyées au maximum toutes les semaines.|Les données de santé doivent être envoyées au mieux tous les jours.|15 minutes, le temps que la synchronisation se fasse.|
+|Alerter l’utilisateur en cas de crise|5|Que l’utilisateur soit alerté immédiatement ou en un très court délai, de maximum 30 secondes.|Pour permettre une action immédiate, au maximum une quinzaine de secondes.|~ 3 secondes.|
+|Prévenir l’utilisateur|3|Si il n’y a pas d’alerte, alors le rythme d’information peut être, au maximum une dizaine de minutes.|Que l’utilisateur soit informé en 5 minutes des informations sur l'environnement.|~ 1 minute.|
+|Education Pédagogique|3|L’utilisateur doit recevoir de nouveaux conseils régulièrement, au minimum tous les 3 jours.|Il serait préférable de recevoir des informations tout les 2 jours|~ 2 heures.|
+
+#### <a name="_i33hipma49t1"></a>**2.1.2 Fonctions de service complémentaires**
+- L'application prévient quand le patch est bientôt déchargé
+- L’utilisateur a la possibilité de renseigner la carte avec les mesures d'environnement avec des appareils de mesure.
+
+*(qui améliorent, facilitent ou complètent le service rendu)*
+##### <a name="_q12jknotbhmi"></a>**2.1.2.1 Description et détail**
+L'application prévient quand le patch est bientôt déchargé : L’application doit prévenir au moins 1 semaine à l’avance pour que le patch puisse être délivré à temps.
+
+Niveau souhaité : l’application doit prévenir au mieux 2 semaines à l’avance pour pouvoir changer au plus vite son patch. L’état de chargement doit être communiqué en pourcentage et non en temps afin qu’il soit plus parlant pour l’utilisateur.
+
+L’utilisateur a la possibilité de renseigner la carte avec les mesures d'environnement avec des appareils de mesure.
+
+##### <a name="_kslh1u3niuew"></a>**2.1.2.2 Critères d’appréciation et les niveaux qui les caractérisent**
+
+
+
+
+|Nom|Coef. de Pondération|Critères d’Appréciation|Niv. des crit. d’Appréciation|Niveaux de Flexibilité|
+| :- | :- | :- | :- | :- |
+|L'application prévient quand le patch est bientôt déchargé|4|L’application devra prévenir quand le patch n’aura plus que 10 % de batterie..|Au mieux, l’application prévient quand la batterie n’a plus que 15%.|A environ 1% près.|
+|L’application prévient lorsqu’un capteur produit des données aberrantes|3|Données incohérentes, valeurs très hautes ou très faibles|Données incohérentes, valeurs très hautes ou très faibles|` `Environ 5% des données venant d’être récoltées sur une période de plus ou moins 45 secondes sont  incohérentes.|
+
+*(Niveaux dont l’obtention est imposée)*
+
+*(Niveaux souhaités mais révisables)*
+#### <a name="_27r1jnjd0hx8"></a>**2.1.3 Contraintes**
+*(limitations à la liberté du concepteur-réalisateur)*
+
+- Les différentes liaisons (entre les patchs et le téléphone, et entre le téléphone et l’Espace Numérique de Santé) doivent être sécurisées.
