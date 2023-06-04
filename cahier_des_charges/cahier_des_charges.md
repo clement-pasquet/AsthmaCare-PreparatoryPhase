@@ -382,5 +382,65 @@ Si nous partons des fonctions principales définies dans le WBS :
     - Mise en place du contenu
 #### <a name="_twk3xrcfew9v"></a>**3.4.7 Perspectives d’évolution technologique**
 Il y a une opportunité de relever des données sur des images et vidéos prises par l’utilisateur (BPM, pollen, taux d’oxygène dans le sang…). L’avantage de cette amélioration technologique est que le dispositif sera moins invasif.
+## <a name="_fdmyzk6dvaqv"></a>**4 Prévisions de fiabilité – Gestions des risques**
+### <a name="_c4nphuu8e6d6"></a>**4.1 Risques à la réalisation**
+***Profils de risques** pour chaque fonction de service*
 
+Récolte de données : différences dans les téléphones par-rapport au modèle de test provoquant des erreurs d’utilisation de capteur, ou d’utilisation du bluetooth.
+
+Stockage de données : format de stockage mal supporté par certains téléphones, ou demandé par le corps médical de nouvelle information ou format différent provoquant des bug lors de mise à jour. données pas suffisamment protégées pour être empêcher d’être lues par les virus.
+
+*Envoyer les données de santé de l’utilisateur au téléphone*
+
+Envoie de données : les technologies de protection de données ne sont pas suffisantes lors de la création de l’application, l’api d’envoie est pas bien adapté car l’accès au service santé n’est pas assez connu.
+
+Utilisation de l’application : l’application n’est pas suffisamment optimisée provoquant un épuisement de la batterie bien trop rapide, à cause des différentes attentes par rapport à l'utilisation des téléphone selon les gens. (exemple : application du gouvernement pendant la période du covid), ou épuisement de la batterie du patch trop rapide ce qui freine l'envie des parents d'investir dedans.
+
+*Mesurer les différents paramètres de santé de l’utilisateur*
+
+*Mesurer : Les capteurs fournissent des données erronées.*
+
+*Partager les données de santé du téléphone de l’utilisateur à l’Espace Numérique de Santé en respectant la [rgpd](https://www.uni-presse.fr/aide/donnees-personnelles-et-rgpd/?msclkid=45a83fc89f311afbeac95bb40db73efe&utm_source=bing&utm_medium=cpc&utm_campaign=DSA-FR&utm_term=uni-presse&utm_content=All_Pages).*
+
+*Partager : Les données ne sont pas sécurisées et peuvent être volées, détournées ou récupérées par un tiers. Les données de l’utilisateur sont utilisées à son insu.*
+
+*Eduquer l’utilisateur en vulgarisant l’asthme et les sujets connexes (Informations faites vérifiées par le comité médical)*
+
+*Éduquer : Les informations sont incorrectes, elles donnent de mauvais conseils.*
+
+*Prévenir l’utilisateur d’une future crise*
+
+*Prévenir : la date prévue n'est pas précise voir incorrecte.*
+
+*Alerter l’utilisateur pendant la crise (rassurer l’utilisateur)*
+
+*Alerter : L'alerte n'est pas rassurante et donc peut stresser l'utilisateur et empirer la crise.*
+
+
+### <a name="_epb703u20guj"></a>**4.2 Prévision des défaillances**
+*Table de défaillance pour chaque fonction de service avec un paragraphe commentant chaque défaillance et/ou chaque cause/effet/détection d’importance*
+
+|*fonction*|*type défaillance*|*cause*|*effet*|*détection possible*|*importance*|
+| :- | :- | :- | :- | :- | :- |
+|*analyse environnement*|*capteur détruit*|<p>*environnement oppressant*</p><p>*pour le capteur*</p>|*arrêt de récolte donnée du capteur*|*si données non récoltées alors problème*|*2*|
+|*analyse environnement*|<p>*capteur*</p><p>*récoltant des données erronées*</p>|<p>*environnement*</p><p>*oppressant*</p>|*données aberrantes, alertes faussement positives*|<p>*piques abruptes bizarres comparés aux autres capteurs,*</p><p>*de manière répétée*</p>|*3*|
+|*alerter utilisateur*|*notification non envoyée*|*dysfonctionnement, bug*|*utilisateur n’a plus confiance en l’application*|*aucune, mais possibilité de tester ou de demander confirmation que l'alerte est belle et bien lue.*|*3*|
+|*rassurer utilisateur*|*message non rassurant*|*pédagogie, non adaptée*|*suite à une angoisse, peut aggraver la crise d’asthme*|*le psychologue n’a pas validé le message*|*5*|
+|<p>*stockage de données*</p><p></p>|*mémoire corrompue*|*le programme a été interrompu d’une façon ou d’une autre et la mémoire a été corrompue.*|<p>*les données deviennent incohérentes/*</p><p>*inutilisables plus ou moins définitivement.*</p>|*aucune, mais on peut regarder la mémoire de temps en temps et si le format ne correspond pas, cela peut signaler le problème*|*2*|
+|*envoie de données*|*rapport incomplet*|*le téléphone et les services de santé, ont la connexion entre eux rompue sans moyen de redémarrer*|*les données ne seront pas renvoyées, ou peut créer des coquilles dans le service numérique de santé*|*rajouter un tag sur les données permettant de savoir si les données ont été envoyées entièrement ou non.*|*3*|
+
+### <a name="_lopul67rrxxd"></a>**4.3 Gestion des défaillances**
+*La **Matrice de criticité*** \*Pour chaque défaillance critique (en zone noire ou proche), un paragraphe expliquant comment
+
+|<p>gravité ➡️<br>probabilité</p><p>⬇️</p>|faible|moyen|grave|critique|
+| :- | :- | :- | :- | :- |
+|faible||||message non rassurant|
+|moyenne|mémoire corrompu|capteur détruit|capteur menteur||
+|important|notification non envoyer|rapport non complet|||
+|certains|||||
+Message non rassurant : Pour empêcher l’utilisation de messages non rassurant, il faut faire vérifier les messages par un psychologue.
+
+- L’empêcher
+- Alerter qu'elle est en voie de se produire
+- Réagir quand elle s’est produite\*
 
