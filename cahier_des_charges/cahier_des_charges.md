@@ -333,7 +333,8 @@ L’utilisateur a la possibilité de renseigner la carte avec les mesures d'envi
 
 Pour ce qui est du patch, il existe des équivalents de patchs connectés vendus pour le prix de 199 $ comme écrit ici ( [VitalConnect HealthPatch BioSensor: The "really-connected self" | Engadget](https://www.engadget.com/2014-06-13-vitalconnect-healthpatch-biosensor-the-really-connected-self.html) ), cela nous permet d’estimer le prix des patchs pour être rentable.
 
-Pour l’application nous allons faire passer par un système d’abonnement,  
+Pour l’application nous allons faire passer par un système d’abonnement, afin qu'il soit rentable mais aussi accessible, l'abonnement est fixé à 14€.
+
 #### <a name="_47ovvnswuo0r"></a>**3.4.2 Options et variantes proposées non retenues au cahier des charges**
 #### <a name="_41e2vydu3d0v"></a>**3.4.3 Mesures prises pour respecter les contraintes et leurs conséquences économiques**
 Pour pouvoir remplir les *contraintes de stockage* dans les téléphones, il est important de limiter la quantité de données stockées en utilisant une intelligence artificielle qui se chargera de trier et de nettoyer les informations de santé.
